@@ -1,0 +1,36 @@
+{
+  "name": "openbadges-bakery-v3",
+  "version": "1.0.6",
+  "description": "Tools for baking and debaking openbadge images",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": "bin/oven",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "buffer-equal": "0.0.0",
+    "cheerio": "1.0.0-rc.12",
+    "concat-stream": "~1.1.0",
+    "jws": "~3.1.5",
+    "optimist": "~0.3.5",
+    "streampng-v2": "^2.1.0",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "jshint": "2.13.6",
+    "tap": "18.6.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla/openbadges-bakery.git"
+  },
+  "keywords": [
+    "openbadges"
+  ],
+  "author": "Brian J. Brennan",
+  "license": "MPL 2.0"
+}
