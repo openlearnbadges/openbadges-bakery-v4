@@ -1,6 +1,6 @@
 {
-  "name": "openbadges-bakery-v3",
-  "version": "1.0.6",
+  "name": "openbadges-bakery-v4",
+  "version": "1.0.10",
   "description": "Tools for baking and debaking openbadge images",
   "main": "index.js",
   "directories": {
@@ -12,7 +12,7 @@
     "buffer-equal": "0.0.0",
     "cheerio": "1.0.0-rc.12",
     "concat-stream": "~1.1.0",
-    "jws": "~3.1.5",
+    "jws": "^3.2.3",
     "optimist": "~0.3.5",
     "streampng-v2": "^2.1.0",
     "through": "~2.3.4"
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozilla/openbadges-bakery.git"
+    "url": "git://github.com/openlearnbadges/openbadges-bakery-v4.git"
   },
   "keywords": [
     "openbadges"

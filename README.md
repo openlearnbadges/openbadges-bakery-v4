@@ -1,10 +1,10 @@
 # openbadges-bakery [![Build Status](https://secure.travis-ci.org/mozilla/openbadges-bakery.png)](http://travis-ci.org/mozilla/openbadges-bakery)
 
-An OpenBadges image baking library that works with PNGs and SVGs (Version 1.0.6 fix security)
+An OpenBadges image baking library that works with PNGs and SVGs (Version 1.0.10 fix security)
 
 # Install
 ```bash
-$ npm install openbadges-bakery-v3
+$ npm install openbadges-bakery-v4
 ```
 # CLI Usage
 
